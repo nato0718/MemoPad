@@ -10,9 +10,15 @@ import SpriteKit
 class ViewController: UIViewController {
     
     var skView: SKView?
+    @IBOutlet weak var eraseButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         createSKView() // SKView作成
+        //setupParticle() // Sceneを追加
+    }
+    
+    
+    @IBAction func eraseButtonTapped(_ sender: Any) {
         setupParticle() // Sceneを追加
     }
     
@@ -29,6 +35,8 @@ class ViewController: UIViewController {
         let particle = try! NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data) as! SKEmitterNode
         particle.name = "MyParticle"
         particle.position = CGPoint(x: self.view.frame.width / 2, y: self.view.frame.height / 2)
+        particle.numParticlesToEmit = 100 // 発生時間
+        // particle.particleLifetime = 1 // 寿命
         scene.addChild(particle)
         self.skView!.presentScene(scene)
         self.view.addSubview(self.skView!)

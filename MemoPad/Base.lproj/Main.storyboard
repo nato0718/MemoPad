@@ -24,15 +24,21 @@
                                 <state key="normal" title="Button">
                                     <imageReference key="image" image="trash" catalog="system" symbolScale="large"/>
                                 </state>
+                                <connections>
+                                    <action selector="eraseButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p69-Tr-pVx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="eraseButton" destination="V6H-sf-uFG" id="2Qo-7B-mSi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-319" y="11"/>
+            <point key="canvasLocation" x="-320.28985507246381" y="10.714285714285714"/>
         </scene>
     </scenes>
     <resources>
