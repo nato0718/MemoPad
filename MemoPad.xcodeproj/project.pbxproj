@@ -13,6 +13,7 @@
 		E1F8800425CF8F3300C5DF65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F8800225CF8F3300C5DF65 /* Main.storyboard */; };
 		E1F8800625CF8F3800C5DF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F8800525CF8F3800C5DF65 /* Assets.xcassets */; };
 		E1F8800925CF8F3800C5DF65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F8800725CF8F3800C5DF65 /* LaunchScreen.storyboard */; };
+		E1F8801525CF921F00C5DF65 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = E1F8801425CF921F00C5DF65 /* MyParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E1F8800525CF8F3800C5DF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1F8800825CF8F3800C5DF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1F8800A25CF8F3800C5DF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F8801425CF921F00C5DF65 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E1F87FFC25CF8F3300C5DF65 /* AppDelegate.swift */,
 				E1F87FFE25CF8F3300C5DF65 /* SceneDelegate.swift */,
 				E1F8800025CF8F3300C5DF65 /* ViewController.swift */,
+				E1F8801425CF921F00C5DF65 /* MyParticle.sks */,
 				E1F8800225CF8F3300C5DF65 /* Main.storyboard */,
 				E1F8800525CF8F3800C5DF65 /* Assets.xcassets */,
 				E1F8800725CF8F3800C5DF65 /* LaunchScreen.storyboard */,
@@ -127,6 +130,7 @@
 				E1F8800925CF8F3800C5DF65 /* LaunchScreen.storyboard in Resources */,
 				E1F8800625CF8F3800C5DF65 /* Assets.xcassets in Resources */,
 				E1F8800425CF8F3300C5DF65 /* Main.storyboard in Resources */,
+				E1F8801525CF921F00C5DF65 /* MyParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +291,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = Q43LF2VJ3N;
 				INFOPLIST_FILE = MemoPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yahoo.binarhythm.MemoPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -306,12 +312,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = Q43LF2VJ3N;
 				INFOPLIST_FILE = MemoPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yahoo.binarhythm.MemoPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
